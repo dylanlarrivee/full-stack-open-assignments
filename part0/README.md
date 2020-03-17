@@ -16,14 +16,14 @@ Diagram of a user creating a new note on the page: https://fullstack-exampleapp.
 
 The user enters a new note and clicks save on the web page in the browser.
 
-browser --> server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note..
-server --> browser: HTTP response status code 302. URL redirect. Browser reloads the page..
-browser --> server: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes..
-server --> browser: Sends HTML code..
-browser --> server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css..
-server --> browser: main.css..
-browser --> server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js..
-server --> browser: main.js..
+browser --> server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note ⋅⋅
+server --> browser: HTTP response status code 302. URL redirect. Browser reloads the page⋅⋅
+browser --> server: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes⋅⋅
+server --> browser: Sends HTML code⋅⋅
+browser --> server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css⋅⋅
+server --> browser: main.css⋅⋅
+browser --> server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js⋅⋅
+server --> browser: main.js⋅⋅
 
 The browser starts to execute the js code that requests JSON data from the server.
 
