@@ -1,4 +1,4 @@
-# Full-Stack Open COurse Assignments
+# Full-Stack Open Course Assignments
 
 ## Part 0
 a: General Info
